@@ -1,0 +1,13 @@
+{
+   "python.linting.pylintPath":
+    "${workspaceFolderBasename}${pathSeparator}venv${pathSeparator}bin${pathSeparator}pylint",
+   "python.defaultInterpreterPath": 
+    "${workspaceFolderBasename}${pathSeparator}${pathSeparator}venv${pathSeparator}bin${pathSeparator}python"
+   //"python.formatting.autopep8Path": "/home/mafrarrix/VSCprojects/Sezione3/03_DRF_LV1/venv/bin/autopep8"
+   // "python.analysis.extraPaths": [
+   //    "${workspaceFolder}/03_DRF_LV1/venv/lib"
+   // ],
+   // "python.autoComplete.extraPaths": [
+   //    "${workspaceFolder}/03_DRF_LV1/venv/lib"
+   // ]
+}
