@@ -7,11 +7,11 @@ from django.shortcuts import get_object_or_404
 from jobBoardAPI.models import JobOffer
 from jobBoardAPI.api.serializers import JobOfferSerializer
 
-class JobOfferListeCreateAPIview(APIView):
+class JobOfferListCreateAPIview(APIView):
     
-    def get(self,request):
-        JobOffers = JobOffer.object.filter(active=True)
-        serializer = JobOfferSerializer(JobOffer, many=True)
+    def get(self, request):
+        JobOffers = JobOffer.objects.filter(avabile=True)
+        serializer = JobOfferSerializer(JobOffers, many=True)
         return Response(serializer.data)
     
     def post(self, request):

@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from jobBoardAPI.serializers import JobOffer
+from jobBoardAPI.models import JobOffer
 from datetime import datetime
 
 class JobOfferSerializer(serializers.ModelSerializer):
@@ -9,7 +9,7 @@ class JobOfferSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = JobOffer
-        exlude = ("id",)
+        exclude = ("id",)
         
     def time(self, object):
         publication_dete = object.create_at
