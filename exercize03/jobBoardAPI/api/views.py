@@ -24,8 +24,8 @@ class JobOfferListCreateAPIview(APIView):
 class JobOfferDetailAPIview(APIView):
      
     def get_object(self, pk):
-        JobOffer = self.get_object_or_404(JobOffer, pk=pk)
-        return JobOffer
+        joboffer= get_object_or_404(JobOffer, pk=pk)
+        return joboffer
     
     def get(self, request, pk):
         JobOffer = self.get_object(pk)

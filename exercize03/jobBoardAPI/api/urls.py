@@ -3,6 +3,6 @@ from jobBoardAPI.api.views import JobOfferListCreateAPIview, JobOfferDetailAPIvi
 
 urlpatterns = [
     path('jobs/', JobOfferListCreateAPIview.as_view(), name='job-list'),
-    path('jobs//<int:pk>', JobOfferDetailAPIview.as_view(), name='job-detail')
+    path('jobs/<int:pk>', JobOfferDetailAPIview.as_view(), name='job-details')
     
 ]

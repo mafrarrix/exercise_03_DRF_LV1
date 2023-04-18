@@ -9,7 +9,8 @@ class JobOfferSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = JobOffer
-        exclude = ("id",)
+        fields = '__all__'
+        #exclude = ("id",)
         
     def time(self, object):
         publication_dete = object.create_at
