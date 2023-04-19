@@ -34,7 +34,7 @@ class JobOfferDetailAPIview(APIView):
     
     def put(self, request, pk):
         JobOffer = self.get_object(pk)
-        erializer = JobOfferSerializer(JobOffer)
+        serializer = JobOfferSerializer(JobOffer)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
@@ -42,7 +42,7 @@ class JobOfferDetailAPIview(APIView):
     
     def delete(self, request, pk):
         JobOffer = self.get_object(pk)
-        JobOffer.delete
-        return Response(serializer.errors, status=status.HTTP_204_NO_CONTENT)
+        JobOffer.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
      
     
