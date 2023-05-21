@@ -1,4 +1,4 @@
-# Exercize_03_DRF_LV1
+# Exercise_03_DRF_LV1
 Course Django REST Framework e Vue JS
 
 This repository contains a implementation of Django Rest Framework 
@@ -6,8 +6,8 @@ in python version 3.10.6
 
 ## Directory Structure
 
-- `exercize03/`
-  - `exercize03/`: Root Django folder.
+- `exercise03/`
+    -`exercise03/`: Root Django folder.
     - `jobBoardAPI/`: App Django.
     - `db.sqlite3`: Binary file.
     - `manage.py`: Script file Jango.
