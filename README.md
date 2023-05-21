@@ -7,7 +7,7 @@ in python version 3.10.6
 ## Directory Structure
 
 - `exercise03/`
-   `exercise03/`: Root Django folder.
+    -`exercise03/`: Root Django folder.
     - `jobBoardAPI/`: App Django.
     - `db.sqlite3`: Binary file.
     - `manage.py`: Script file Jango.
