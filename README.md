@@ -7,7 +7,6 @@ This repository contains a implementation of Django Rest Framework
 in python version 3.10.6
 
 ## Directory Structure
-
 - `exercise03/`
     -`exercise03/`: Root Django folder.
     - `jobBoardAPI/`: App Django.
@@ -16,9 +15,12 @@ in python version 3.10.6
     - `main.yml`: Main playbook that includes other playbooks.
 - `requirements.txt`: Dependency for venv
 
-## Install Requirements
-- `python3 -m venv nome_ambiente`: Create new venv
-- `pip install -r requirements.txt`: Install dependencies
+## Setup
+#### Crate eviroment and Install requirements
+```
+python3 -m venv nome_ambiente ```: Create new venv
+pip install -r requirements.txt: Install dependencie
+```
 
 ## Description
 
