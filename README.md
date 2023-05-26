@@ -1,5 +1,5 @@
 # Exercise_03_DRF_LV1
-Course Django REST Framework e Vue JS
+## Django REST Framework an Vue JS
 
 ![1200-jpg-2939061317](https://github.com/mafrarrix/exercise_03_DRF_LV1/assets/84633068/357c158d-a90d-406d-915d-6ec0b6069c44)
 
@@ -16,10 +16,11 @@ in python version 3.10.6
 - `requirements.txt`: Dependency for venv
 
 ## Setup
-#### Crate eviroment and Install requirements
+#### Crate eviroment and Install requirements 
+`bash shell`
 ```
-python3 -m venv nome_ambiente ```: Create new venv
-pip install -r requirements.txt: Install dependencie
+python3 -m venv nome_ambiente 
+pip install -r requirements.txt
 ```
 
 ## Description
