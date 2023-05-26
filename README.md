@@ -17,7 +17,7 @@ in python version 3.10.6
 
 ## Setup
 #### Crate eviroment and Install requirements 
-`bash shell`
+`bash`
 ```
 python3 -m venv nome_ambiente 
 pip install -r requirements.txt
